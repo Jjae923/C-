@@ -15,23 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="chapter1_01.cpp">
+    <ClCompile Include="chapter5_01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="chapter1_02.cpp">
+    <ClCompile Include="chapter5_02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="chapter1_03.cpp">
+    <ClCompile Include="chapter5_03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="chapter1_04.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="chapter1_05.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="chapter1_06.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="datatime.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
