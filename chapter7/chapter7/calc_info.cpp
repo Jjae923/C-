@@ -19,7 +19,7 @@ void weight::calc_stweight(int h, int w)
 	// 적정 몸무게 저장
 	double s = 0;
 	// 남자(1 | 3) (키-100)*0.9
-	// 여자(1 | 3) (키-110)*0.9
+	// 여자(2 | 4) (키-110)*0.9
 	if (gender == 1 || gender == 3)
 	{
 		s = (customer_height - 100)*0.9;

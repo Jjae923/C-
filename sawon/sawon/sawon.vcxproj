@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E8FA7070-697E-49B2-B122-A0DCC5CC9B19}</ProjectGuid>
+    <ProjectGuid>{C0D1BF0D-FE4D-47A4-A90D-1E13994FC8A2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>chapter7</RootNamespace>
+    <RootNamespace>sawon</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,13 +151,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="calc_info.cpp" />
-    <ClCompile Include="construct.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="print.cpp" />
+    <ClCompile Include="sw.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="weightmanage.h" />
+    <ClInclude Include="sawon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
