@@ -37,6 +37,6 @@ int main()
 	cin >> h >> w;
 	wman->calc_stweight(h, w);
 	wman->print();
-	delete 
+	delete
 
 }

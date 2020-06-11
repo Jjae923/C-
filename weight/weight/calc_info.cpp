@@ -28,9 +28,8 @@ void weight::calc_stweight(int h, int w)
 	{
 		s = (customer_height - 110)*0.9;
 	}
-			   
+
 	customer_opt = customer_weight - s;
 
 
 }
- 
